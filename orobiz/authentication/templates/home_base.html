@@ -1,0 +1,139 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Orobiz - Business Networking Solutions</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Orobiz - Elite Business Networking Platform" name="description">
+    <meta content="Orobiz" name="author">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
+    
+    <!--styles-->
+    <link href="{% static 'authentication/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'authentication/css/owl.carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'authentication/css/owl.theme.css' %}" rel="stylesheet">
+    <link href="{% static 'authentication/css/magnific-popup.css' %}" rel="stylesheet">
+    <link href="{% static 'authentication/css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'authentication/css/responsive.css' %}" rel="stylesheet">
+    
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+      <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
+      </div>
+    </div>
+    <!--/.PRELOADER END-->
+
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="#"><img alt="Orobiz Logo" class="logo-nav" src="{% static 'authentication/images/logo.png' %}"></a>
+        </div>
+        <!--/.LOGO END-->
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home" class="active">
+              <span>Home</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>About</span>
+            </a>
+            <a data-scroll="" href="#services">
+              <span>Services</span>
+            </a>
+            <a data-scroll="" href="#work">
+              <span>Our Network</span>
+            </a>
+            <a data-scroll="" href="#testimonial">
+              <span>Testimonials</span>
+            </a>
+            <a data-scroll="" href="#blog">
+              <span>Blog</span>
+            </a>
+            <a data-scroll="" href="#contact">
+              <span>Contact</span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+    
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        {% block content %}
+        <!-- Content will be inserted here from child templates -->
+        {% endblock %}
+      </div>
+    </div>
+    
+    <!--FOOTER-->
+    <footer>
+      <div class="footer-top">
+        <ul class="socials">
+          <li class="facebook">
+            <a href="#" data-hover="Facebook">Facebook</a>
+          </li>
+          <li class="twitter">
+            <a href="#" data-hover="Twitter">Twitter</a>
+          </li>
+          <li class="linkedin">
+            <a href="#" data-hover="LinkedIn">LinkedIn</a>
+          </li>
+          <li class="instagram">
+            <a href="#" data-hover="Instagram">Instagram</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <img src="{% static 'authentication/images/logo-bottom.png' %}" alt="Orobiz logo" class="center-block" />
+            <p class="text-center">
+              &copy; 2023 Orobiz Network Solutions. All Rights Reserved.<br>
+              Partnered with BNI | Member of the Referral Institute
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--/.FOOTER-END-->
+
+    <script src="{% static 'authentication/js/jquery-1.9.1.min.js' %}"></script>
+    <script src="{% static 'authentication/js/jquery.appear.js' %}"></script>
+    <script src="{% static 'authentication/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'authentication/js/classie.js' %}"></script>
+    <script src="{% static 'authentication/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'authentication/js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'authentication/js/masonry.pkgd.min.js' %}"></script>
+    <script src="{% static 'authentication/js/masonry.js' %}"></script>
+    <script src="{% static 'authentication/js/smooth-scroll.min.js' %}"></script>
+    <script src="{% static 'authentication/js/typed.js' %}"></script>
+    <script src="{% static 'authentication/js/main.js' %}"></script>
+  </body>
+</html>
