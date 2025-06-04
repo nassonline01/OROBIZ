@@ -6,4 +6,4 @@ def dashboard(request):
     return render(request, 'authentication/dashboard.html')
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'home/index.html')

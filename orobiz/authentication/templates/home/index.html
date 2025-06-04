@@ -1,0 +1,803 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <!-- Begin Head -->
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Megakit - HTML5 Theme</title>
+        <meta name="keywords" content="HTML5 Theme" />
+        <meta name="description" content="Megakit - HTML5 Theme">
+        <meta name="author" content="keenthemes.com">
+
+        <!-- Web Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i|Montserrat:400,700" rel="stylesheet">
+
+        <!-- Vendor Styles -->
+        <link href="{% static 'authentication/home/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/css/animate.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/vendor/themify/themify.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/vendor/scrollbar/scrollbar.min.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/vendor/magnific-popup/magnific-popup.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/vendor/swiper/swiper.min.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/vendor/cubeportfolio/css/cubeportfolio.min.css' %}" rel="stylesheet" type="text/css"/>
+
+        <!-- Theme Styles -->
+        <link href="{% static 'authentication/home/css/style.css' %}" rel="stylesheet" type="text/css"/>
+        <link href="{% static 'authentication/home/css/global/global.css' %}" rel="stylesheet" type="text/css"/>
+
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{% static 'authentication/home/img/favicon.ico' %}" type="image/x-icon">
+        <link rel="apple-touch-icon" href="{% static 'authentication/home/img/apple-touch-icon.png' %}">
+    </head>
+    <!-- End Head -->
+
+    <!-- Body -->
+    <body>
+
+        <!--========== HEADER ==========-->
+        <!--========== HEADER ==========-->
+<header class="navbar-fixed-top s-header js__header-sticky js__header-overlay">
+    <!-- Navbar -->
+    <div class="s-header__navbar">
+        <div class="s-header__container">
+            <div class="s-header__navbar-row">
+                <div class="s-header__navbar-row-col">
+                    <!-- Logo -->
+                    <div class="s-header__logo">
+                        <a href="index.html" class="s-header__logo-link">
+                            <img class="s-header__logo-img s-header__logo-img-default" src="{% static 'authentication/home/img/logo.png' %}" alt="Orobiz Logo">
+                            <img class="s-header__logo-img s-header__logo-img-shrink" src="{% static 'authentication/home/img/logo-dark.png' %}" alt="Orobiz Logo">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+                <div class="s-header__navbar-row-col">
+                    <!-- Trigger -->
+                    <a href="javascript:void(0);" class="s-header__trigger js__trigger">
+                        <span class="s-header__trigger-icon"></span>
+                        <svg x="0rem" y="0rem" width="3.125rem" height="3.125rem" viewbox="0 0 54 54">
+                            <circle fill="transparent" stroke="#fff" stroke-width="1" cx="27" cy="27" r="25" stroke-dasharray="157 157" stroke-dashoffset="157"></circle>
+                        </svg>
+                    </a>
+                    <!-- End Trigger -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar -->
+
+    <!-- Overlay -->
+    <div class="s-header-bg-overlay js__bg-overlay">
+        <!-- Nav -->
+        <nav class="s-header__nav js__scrollbar">
+            <div class="container-fluid">
+                <!-- Menu List -->                                
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="index.html">Home</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="services.html">Services</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="membership.html">Membership</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="events.html">Events</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="testimonials.html">Success Stories</a></li>
+                </ul>
+                <!-- End Menu List -->
+
+                <!-- Menu List -->                                
+                <ul class="list-unstyled s-header__nav-menu">
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="about.html">About Us</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="blog.html">Blog</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="gallery.html">Gallery</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="careers.html">Careers</a></li>
+                    <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contact Us</a></li>
+                </ul>
+                <!-- End Menu List -->
+            </div>
+        </nav>
+        <!-- End Nav -->
+        
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--lb">
+            <li class="s-header__action-item"><a class="s-header__action-link -is-active" href="#">En</a></li>
+            <li class="s-header__action-item"><a class="s-header__action-link" href="#">Fr</a></li>
+        </ul>
+        <!-- End Action -->
+
+        <!-- Action -->
+        <ul class="list-inline s-header__action s-header__action--rb">
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-facebook"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Facebook</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-twitter"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">Twitter</span>
+                </a>
+            </li>
+            <li class="s-header__action-item">
+                <a class="s-header__action-link" href="#">
+                    <i class="g-padding-r-5--xs ti-linkedin"></i>
+                    <span class="g-display-none--xs g-display-inline-block--sm">LinkedIn</span>
+                </a>
+            </li>
+        </ul>
+        <!-- End Action -->
+    </div>
+    <!-- End Overlay -->
+</header>
+<!--========== END HEADER ==========-->
+
+<!--========== SWIPER SLIDER ==========-->
+<div class="s-swiper js__swiper-one-item">
+    <!-- Swiper Wrapper -->
+    <div class="swiper-wrapper">
+        <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('static/authentication/home/img/1920x1080/02.jpg');">
+            <div class="container g-text-center--xs g-ver-center--xs">
+                <div class="g-margin-b-30--xs">
+                    <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">The Elite Business<br>Referral Platform</h1>
+                </div>
+                <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+                    <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
+                </a>
+            </div>
+        </div>
+        <div class="g-fullheight--xs g-bg-position--center swiper-slide" style="background: url('static/authentication/home/img/1920x1080/01.jpg');">
+            <div class="container g-text-center--xs g-ver-center--xs">
+                <div class="g-margin-b-30--xs">
+                    <div class="g-margin-b-30--xs">
+                        <h2 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--white">We Create Connections<br>That Drive Business<br>Growth</h2>
+                    </div>
+                    <a class="js__popup__youtube" href="https://www.youtube.com/watch?v=lcFYdgZKZxY" title="Intro Video">
+                        <i class="s-icon s-icon--lg s-icon--white-bg g-radius--circle ti-control-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Swiper Wrapper -->
+
+    <!-- Arrows -->
+    <a href="javascript:void(0);" class="s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+    <a href="javascript:void(0);" class="s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+    <!-- End Arrows -->
+    
+    <a href="#js__scroll-to-section" class="s-scroll-to-section-v1--bc g-margin-b-15--xs">
+        <span class="g-font-size-18--xs g-color--white ti-angle-double-down"></span>
+        <p class="text-uppercase g-color--white g-letter-spacing--3 g-margin-b-0--xs">Learn More</p>
+    </a>
+</div>
+<!--========== END SWIPER SLIDER ==========-->
+
+<!--========== PAGE CONTENT ==========-->
+<!-- Features -->
+<div id="js__scroll-to-section" class="container g-padding-y-80--xs g-padding-y-125--sm">
+    <div class="g-text-center--xs g-margin-b-100--xs">
+        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Welcome to Orobiz</p>
+        <h2 class="g-font-size-32--xs g-font-size-36--md">We Build Powerful Referral Networks<br> That Accelerate Business Success.</h2>
+    </div>
+    <div class="row g-margin-b-60--xs g-margin-b-70--md">
+        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".1s">
+                        <i class="g-font-size-28--xs g-color--primary ti-share"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Quality Referrals</h3>
+                    <p class="g-margin-b-0--xs">Our vetted members provide high-quality business referrals that convert into real opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".2s">
+                        <i class="g-font-size-28--xs g-color--primary ti-calendar"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Exclusive Events</h3>
+                    <p class="g-margin-b-0--xs">Monthly meetings and special events designed to foster meaningful business connections.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".3s">
+                        <i class="g-font-size-28--xs g-color--primary ti-bar-chart"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Business Growth</h3>
+                    <p class="g-margin-b-0--xs">Proven strategies and connections to help you scale your business effectively.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // end row  -->
+    <div class="row">
+        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".4s">
+                        <i class="g-font-size-28--xs g-color--primary ti-light-bulb"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Strategic Partnerships</h3>
+                    <p class="g-margin-b-0--xs">Connect with complementary businesses to create win-win relationships.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 g-margin-b-60--xs g-margin-b-0--md">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".5s">
+                        <i class="g-font-size-28--xs g-color--primary ti-headphone-alt"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Member Support</h3>
+                    <p class="g-margin-b-0--xs">Dedicated team to help you maximize your membership benefits.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="clearfix">
+                <div class="g-media g-width-30--xs">
+                    <div class="wow fadeInDown" data-wow-duration=".3" data-wow-delay=".6s">
+                        <i class="g-font-size-28--xs g-color--primary ti-mobile"></i>
+                    </div>
+                </div>
+                <div class="g-media__body g-padding-x-20--xs">
+                    <h3 class="g-font-size-18--xs">Digital Platform</h3>
+                    <p class="g-margin-b-0--xs">Our proprietary system makes tracking referrals and connections effortless.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- // end row  -->
+</div>
+<!-- End Features -->
+
+<!-- Parallax -->
+<div class="js__parallax-window" style="background: url(static/authentication/home/img/1920x1080/03.jpg) 50% 0 no-repeat fixed;">
+    <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="g-margin-b-80--xs">
+            <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">The Fastest Way To Grow Your Business</h2>
+        </div>
+        <a href="{% url 'signup' %}" class="text-uppercase s-btn s-btn--md s-btn--white-brd g-radius--50">Join Now</a>
+    </div>
+</div>
+<!-- End Parallax -->
+
+<!-- Culture -->
+<div class="g-promo-section">
+    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="row">
+            <div class="col-md-4 g-margin-t-15--xs g-margin-b-60--xs g-margin-b-0--lg">
+                <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Our Approach</p>
+                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".1s">
+                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">The Orobiz</h2>
+                </div>
+                <div class="wow fadeInLeft" data-wow-duration=".3" data-wow-delay=".3s">
+                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md">Difference</h2>
+                </div>
+            </div>
+            <div class="col-md-4 col-md-offset-1">
+                <p class="g-font-size-18--xs">Orobiz is more than just a referral platform - we're a community of elite business owners committed to mutual success. Our selective membership ensures you're connecting with serious professionals who deliver quality referrals.</p>
+                <p class="g-font-size-18--xs">We combine proven relationship-building strategies with innovative digital tools to create a referral ecosystem that drives real business growth for our members.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3 g-promo-section__img-right--lg g-bg-position--center g-height-100-percent--md js__fullwidth-img">
+        <img class="img-responsive" src="{% static 'authentication/home/img/970x970/03.jpg' %}" alt="Orobiz Team">
+    </div>
+</div>
+<!-- End Culture -->
+
+<!-- Subscribe -->
+<div class="js__parallax-window" style="background: url(static/authentication/home/img/1920x1080/07.jpg) 50% 0 no-repeat fixed;">
+    <div class="g-container--sm g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="g-margin-b-80--xs">
+            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-25--xs">Join Our Community</p>
+            <h2 class="g-font-size-32--xs g-font-size-36--md g-color--white">1,500+ Business Owners Growing Together</h2>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
+                <form class="input-group">
+                    <input type="email" class="form-control s-form-v1__input g-radius--left-50" name="email" placeholder="Enter your email">
+                    <span class="input-group-btn">
+                        <button type="submit" class="s-btn s-btn-icon--md s-btn-icon--white-brd s-btn--white-brd g-radius--right-50"><i class="ti-arrow-right"></i></button>
+                    </span>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Subscribe -->
+
+<!-- Portfolio Filter -->
+<div class="container g-padding-y-80--xs">
+    <div class="g-text-center--xs g-margin-b-40--xs">
+        <h2 class="g-font-size-32--xs g-font-size-36--md">Our Core Services</h2>
+    </div>
+    <div class="s-portfolio">
+        <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
+            <div data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">All Services</div>
+            <div data-filter=".referral" class="s-portfolio__filter-v1-item cbp-filter-item">Referral System</div>
+            <div data-filter=".training" class="s-portfolio__filter-v1-item cbp-filter-item">Training</div>
+            <div data-filter=".digital" class="s-portfolio__filter-v1-item cbp-filter-item">Digital Tools</div>
+        </div>
+    </div>
+</div>
+<!-- End Portfolio Filter -->
+
+<!-- Portfolio Gallery -->
+<div class="container g-margin-b-100--xs">
+    <div id="js__grid-portfolio-gallery" class="cbp">
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item referral">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/05.jpg' %}" alt="Referral System">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Referral Exchange</h4>
+                    <p class="g-color--white-opacity">Proven system for quality referrals</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/05.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Referral Exchange <br/> Quality business referrals">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'services' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item training">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/06.jpg' %}" alt="Business Training">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Business Mastery</h4>
+                    <p class="g-color--white-opacity">Exclusive training programs</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/06.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Business Mastery <br/> Exclusive training programs">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'services' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item digital">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/07.jpg' %}" alt="Digital Platform">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Digital Platform</h4>
+                    <p class="g-color--white-opacity">Track and manage your referrals</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/07.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Digital Platform <br/> Track and manage your referrals">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'services' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item referral training">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/08.jpg' %}" alt="Monthly Meetings">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Monthly Meetings</h4>
+                    <p class="g-color--white-opacity">Connect with fellow members</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/08.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Monthly Meetings <br/> Connect with fellow members">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'events' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item digital">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/09.jpg' %}" alt="Business Directory">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Member Directory</h4>
+                    <p class="g-color--white-opacity">Find the right business connections</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/09.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Member Directory <br/> Find the right business connections">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'members' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- Item -->
+        <div class="s-portfolio__item cbp-item training">
+            <div class="s-portfolio__img-effect">
+                <img src="{% static 'authentication/home/img/970x647/04.jpg' %}" alt="Workshops">
+            </div>
+            <div class="s-portfolio__caption-hover--cc">
+                <div class="g-margin-b-25--xs">
+                    <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Expert Workshops</h4>
+                    <p class="g-color--white-opacity">Learn from industry leaders</p>
+                </div>
+                <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
+                    <li>
+                        <a href="{% static 'authentication/home/img/970x647/04.jpg' %}" class="cbp-lightbox s-icon s-icon--sm s-icon--white-bg g-radius--circle" data-title="Expert Workshops <br/> Learn from industry leaders">
+                            <i class="ti-fullscreen"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{% url 'events' %}" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                            <i class="ti-link"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Item -->
+    </div>
+    <!-- End Portfolio Gallery -->
+</div>
+<!-- End Portfolio -->
+
+<!-- Testimonials -->
+<div class="js__parallax-window" style="background: url(static/authentication/home/img/1920x1080/04.jpg) 50% 0 no-repeat fixed;">
+    <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
+        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--white-opacity g-letter-spacing--2 g-margin-b-50--xs">Success Stories</p>
+        <div class="s-swiper js__swiper-testimonials">
+            <!-- Swiper Wrapper -->
+            <div class="swiper-wrapper g-margin-b-50--xs">
+                <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                    <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                        <div class="g-margin-b-40--xs">
+                            <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>"Joining Orobiz transformed my business. The quality of referrals I receive is exceptional, and the network has helped me grow my revenue by 40% in just one year."</i></p>
+                        </div>
+                        <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                        <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Sarah Johnson - Financial Advisor</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                    <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                        <div class="g-margin-b-40--xs">
+                            <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>"The Orobiz platform has helped me build relationships with top professionals across industries. I've gained clients I never would have reached otherwise."</i></p>
+                        </div>
+                        <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                        <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">Michael Chen - Real Estate Broker</h4>
+                    </div>
+                </div>
+                <div class="swiper-slide g-padding-x-130--sm g-padding-x-150--lg">
+                    <div class="g-padding-x-20--xs g-padding-x-50--lg">
+                        <div class="g-margin-b-40--xs">
+                            <p class="g-font-size-22--xs g-font-size-28--sm g-color--white"><i>"Their training programs taught me how to leverage relationships effectively. I've doubled my client base through Orobiz connections in just 6 months."</i></p>
+                        </div>
+                        <div class="center-block g-hor-divider__solid--white-opacity-lightest g-width-100--xs g-margin-b-30--xs"></div>
+                        <h4 class="g-font-size-15--xs g-font-size-18--sm g-color--white-opacity-light g-margin-b-5--xs">David Martinez - Legal Consultant</h4>
+                    </div>
+                </div>
+            </div>
+            <!-- End Swipper Wrapper -->
+
+            <!-- Arrows -->
+            <div class="g-font-size-22--xs g-color--white-opacity js__swiper-fraction"></div>
+            <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--right s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-right js__swiper-btn--next"></a>
+            <a href="javascript:void(0);" class="g-display-none--xs g-display-inline-block--sm s-swiper__arrow-v1--left s-icon s-icon--md s-icon--white-brd g-radius--circle ti-angle-left js__swiper-btn--prev"></a>
+            <!-- End Arrows -->
+        </div>
+    </div>
+</div>
+<!-- End Testimonials -->
+
+<!-- Clients -->
+<div class="g-bg-color--sky-light">
+    <div class="g-container--md g-padding-y-80--xs g-padding-y-125--sm">
+        <!-- Swiper Clients -->
+        <div class="s-swiper js__swiper-clients">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".1s">
+                        <img class="s-clients-v1" src="{% static 'authentication/home/img/clients/01-dark.png' %}" alt="Client Logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".2s">
+                        <img class="s-clients-v1" src="{% static 'authentication/home/img/clients/02-dark.png' %}" alt="Client Logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".3s">
+                        <img class="s-clients-v1" src="{% static 'authentication/home/img/clients/03-dark.png' %}" alt="Client Logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".4s">
+                        <img class="s-clients-v1" src="{% static 'authentication/home/img/clients/04-dark.png' %}" alt="Client Logo">
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="wow fadeIn" data-wow-duration=".3" data-wow-delay=".5s">
+                        <img class="s-clients-v1" src="{% static 'authentication/home/img/clients/05-dark.png' %}" alt="Client Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Swiper Clients -->
+    </div>
+</div>
+<!-- End Clients -->
+
+<!-- News -->
+<div class="container g-padding-y-80--xs g-padding-y-125--sm">
+    <div class="g-text-center--xs g-margin-b-80--xs">
+        <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Blog</p>
+        <h2 class="g-font-size-32--xs g-font-size-36--md">Business Growth Insights</h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
+            <!-- News -->
+            <article>
+                <img class="img-responsive" src="{% static 'authentication/home/img/970x970/01.jpg' %}" alt="Referral Strategies">
+                <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Strategy</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="{% url 'blog' %}">5 Proven Referral Strategies</a></h3>
+                    <p>Discover techniques used by top performers to generate quality business referrals.</p>
+                </div>
+            </article>
+            <!-- End News -->
+        </div>
+        <div class="col-sm-4 g-margin-b-30--xs g-margin-b-0--md">
+            <!-- News -->
+            <article>
+                <img class="img-responsive" src="{% static 'authentication/home/img/970x970/02.jpg' %}" alt="Business Growth">
+                <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Growth</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="{% url 'blog' %}">Scaling Through Relationships</a></h3>
+                    <p>How to leverage business connections for exponential growth.</p>
+                </div>
+            </article>
+            <!-- End News -->
+        </div>
+        <div class="col-sm-4">
+            <!-- News -->
+            <article>
+                <img class="img-responsive" src="{% static 'authentication/home/img/970x970/03.jpg' %}" alt="Success Story">
+                <div class="g-bg-color--white g-box-shadow__dark-lightest-v2 g-text-center--xs g-padding-x-40--xs g-padding-y-40--xs">
+                    <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2">Case Study</p>
+                    <h3 class="g-font-size-22--xs g-letter-spacing--1"><a href="{% url 'blog' %}">$1M in New Business</a></h3>
+                    <p>How one member generated over $1 million through Orobiz connections.</p>
+                </div>
+            </article>
+            <!-- End News -->
+        </div>
+    </div>
+</div>
+<!-- End News -->
+
+<!-- Counter -->
+<div class="js__parallax-window" style="background: url(static/authentication/home/img/1920x1080/06.jpg) 50% 0 no-repeat fixed;">
+    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="row">
+            <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
+                <div class="g-text-center--xs">
+                    <div class="g-margin-b-10--xs">
+                        <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">1</figure>
+                        <span class="g-font-size-40--xs g-color--white">,500+</span>
+                    </div>
+                    <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                    <h4 class="g-font-size-18--xs g-color--white">Business Members</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--lg">
+                <div class="g-text-center--xs">
+                    <figure class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">120</figure>
+                    <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                    <h4 class="g-font-size-18--xs g-color--white">Referrals Monthly</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 g-full-width--xs g-margin-b-70--xs g-margin-b-0--sm">
+                <div class="g-text-center--xs">
+                    <figure class="g-display-block--xs g-font-size-70--xs g-color--white g-margin-b-10--xs js__counter">24</figure>
+                    <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                    <h4 class="g-font-size-18--xs g-color--white">Industries</h4>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-6 g-full-width--xs">
+                <div class="g-text-center--xs">
+                    <div class="g-margin-b-10--xs">
+                        <figure class="g-display-inline-block--xs g-font-size-70--xs g-color--white js__counter">5</figure>
+                        <span class="g-font-size-40--xs g-color--white">x</span>
+                    </div>
+                    <div class="center-block g-hor-divider__solid--white g-width-40--xs g-margin-b-25--xs"></div>
+                    <h4 class="g-font-size-18--xs g-color--white">ROI Potential</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Counter -->
+
+<!-- Feedback Form -->
+<div class="g-bg-color--sky-light">
+    <div class="container g-padding-y-80--xs g-padding-y-125--sm">
+        <div class="g-text-center--xs g-margin-b-80--xs">
+            <p class="text-uppercase g-font-size-14--xs g-font-weight--700 g-color--primary g-letter-spacing--2 g-margin-b-25--xs">Ready to Grow?</p>
+            <h2 class="g-font-size-32--xs g-font-size-36--md">Request Membership Information</h2>
+        </div>
+        <form>
+            <div class="row g-margin-b-40--xs">
+                <div class="col-sm-6 g-margin-b-20--xs g-margin-b-0--md">
+                    <div class="g-margin-b-20--xs">
+                        <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Name">
+                    </div>
+                    <div class="g-margin-b-20--xs">
+                        <input type="email" class="form-control s-form-v2__input g-radius--50" placeholder="* Email">
+                    </div>
+                    <input type="text" class="form-control s-form-v2__input g-radius--50" placeholder="* Phone">
+                </div>
+                <div class="col-sm-6">
+                    <textarea class="form-control s-form-v2__input g-radius--10 g-padding-y-20--xs" rows="8" placeholder="* Tell us about your business"></textarea>
+                </div>
+            </div>
+            <div class="g-text-center--xs">
+                <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--primary-bg g-radius--50 g-padding-x-80--xs">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<!-- End Feedback Form -->
+
+<!-- Google Map -->
+<section class="s-google-map">
+    <div id="js__google-container" class="s-google-container g-height-400--xs"></div>
+</section>
+<!-- End Google Map -->
+<!--========== END PAGE CONTENT ==========-->
+
+<!--========== FOOTER ==========-->
+<footer class="g-bg-color--dark">
+    <!-- Links -->
+    <div class="g-hor-divider__dashed--white-opacity-lightest">
+        <div class="container g-padding-y-80--xs">
+            <div class="row">
+                <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+                    <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'home' %}">Home</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'about' %}">About Us</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'services' %}">Services</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'contact' %}">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 g-margin-b-20--xs g-margin-b-0--md">
+                    <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'blog' %}">Blog</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'events' %}">Events</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'gallery' %}">Gallery</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'testimonials' %}">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-2 g-margin-b-40--xs g-margin-b-0--md">
+                    <ul class="list-unstyled g-ul-li-tb-5--xs g-margin-b-0--xs">
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'membership' %}">Membership</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'privacy' %}">Privacy Policy</a></li>
+                        <li><a class="g-font-size-15--xs g-color--white-opacity" href="{% url 'terms' %}">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-md-offset-2 col-sm-5 col-sm-offset-1 s-footer__logo g-padding-y-50--xs g-padding-y-0--md">
+                    <h3 class="g-font-size-18--xs g-color--white">Orobiz</h3>
+                    <p class="g-color--white-opacity">The Elite Business Owners Group - connecting professionals through quality referrals and strategic partnerships to drive mutual business growth.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Links -->
+
+    <!-- Copyright -->
+    <div class="container g-padding-y-50--xs">
+        <div class="row">
+            <div class="col-xs-6">
+                <a href="index.html">
+                    <img class="g-width-100--xs g-height-auto--xs" src="{% static 'authentication/home/img/logo.png' %}" alt="Orobiz Logo">
+                </a>
+            </div>
+            <div class="col-xs-6 g-text-right--xs">
+                <p class="g-font-size-14--xs g-margin-b-0--xs g-color--white-opacity-light">© 2025 Orobiz | Nass Online Practise Pvt Ltd</p>
+            </div>
+        </div>
+    </div>
+    <!-- End Copyright --> 
+</footer>
+        <!--========== END FOOTER ==========-->
+
+        <!-- Back To Top -->
+        <a href="javascript:void(0);" class="s-back-to-top js__back-to-top"></a>
+
+        <!--========== JAVASCRIPTS (Load javascripts at bottom, this will reduce page load time) ==========-->
+       
+
+        <!-- Vendor -->
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.migrate.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.smooth-scroll.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.back-to-top.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/scrollbar/jquery.scrollbar.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/magnific-popup/jquery.magnific-popup.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/swiper/swiper.jquery.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/waypoint.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/counterup.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.parallax.min.js' %}"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsXUGTFS09pLVdsYEE9YrO2y4IAncAO2U"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/vendor/jquery.wow.min.js' %}"></script>
+
+        <!-- General Components and Settings -->
+        <script type="text/javascript" src="{% static 'authentication/home/js/global.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/header-sticky.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/scrollbar.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/magnific-popup.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/swiper.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/counter.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/portfolio-3-col.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/parallax.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/google-map.min.js' %}"></script>
+        <script type="text/javascript" src="{% static 'authentication/home/js/components/wow.min.js' %}"></script>
+
+        <!--========== END JAVASCRIPTS ==========-->
+
+    </body>
+    <!-- End Body -->
+</html>
+        
